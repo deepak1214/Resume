@@ -33,14 +33,14 @@ p {
 .up-cloud
 {
     position: absolute;
-    right: 380px;
-    top:20px;
+    right: 30%;
+    top:5%;
 }
 .down-cloud
 {
   position: absolute;
-  left: 380px;
-  bottom: 300px;
+  left: 30%;
+  bottom: 50%;
 }
 .img-class
 {
