@@ -1,6 +1,6 @@
-div{
+iv{
   background-color: #E4F9F5;
-  padding-top: 40px;
+  padding-top: 2.5rem;
   position: relative;
 }
 h1
@@ -25,7 +25,7 @@ h4  {
   font-size: 1.7rem;
 }
 hr {
-  border : dotted blue 6px;
+  border : dotted blue 0.375rem;
   border-bottom: none ;
   width: 4%;
 }
@@ -54,8 +54,8 @@ a:hover {
 .bottom-container
 {
   background-color: #3fc1c9;
-  padding-bottom: 25px;
-  padding-top: 35px;
+  padding-bottom: 1.5625rem;
+  padding-top: 2.1875rem;
 
 }
 .up-cloud
@@ -82,14 +82,14 @@ a:hover {
   border-radius: 100%;
   width : 30%;
   float: right;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 .skill-row
 {
   width : 50%;
-  margin: 100px auto 100px;
+  margin: 6.25rem auto 6.25rem;
   text-align: left;
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 .myButton {
 	box-shadow:inset 0px -3px 7px 0px #29bbff;
@@ -132,3 +132,4 @@ a:hover {
   font-family: serif;
   font-weight: bold;
 }
+
