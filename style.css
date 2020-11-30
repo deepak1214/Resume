@@ -1,12 +1,33 @@
 div{
-  background-color: #f2fcfc;
-  padding-top: 100px;
+  background-color: #E4F9F5;
+  padding-top: 40px;
   position: relative;
 }
 h1
 {
+  margin : 3.125rem auto 0 auto;
+  font-size: 3rem;
+  color: #00bbf0   ;
+  line-height: 1;
+
+}
+h2 {
+  font-size : 2.5rem;
+  color: red;
   margin-top: 0;
-  margin-bottom: 0;
+}
+h3 {
+  color : blue;
+  font-size: 2.2rem;
+}
+h4  {
+  color: blue;
+  font-size: 1.7rem;
+}
+hr {
+  border : dotted blue 6px;
+  border-bottom: none ;
+  width: 4%;
 }
 body
 {
@@ -18,7 +39,11 @@ body
 p {
 
   font-family: 'Sansita Swashed', cursive;
-
+  font-size : 1.3rem;
+  line-height: 2;
+}
+a:hover {
+  color: #f9ffea;
 }
 
 
@@ -28,6 +53,9 @@ p {
 }
 .bottom-container
 {
+  background-color: #3fc1c9;
+  padding-bottom: 25px;
+  padding-top: 35px;
 
 }
 .up-cloud
@@ -45,4 +73,62 @@ p {
 .img-class
 {
   border-radius: 100%;
+  width : 30%;
+  float: left;
+  margin-right: 30px;
+}
+.im-class
+{
+  border-radius: 100%;
+  width : 30%;
+  float: right;
+  margin-right: 30px;
+}
+.skill-row
+{
+  width : 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  padding-top: 30px;
+}
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2ef52e 5%, #058aff 100%);
+	background-color:#2ef52e;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:20px 24px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #1294eb;
+  margin: 50px auto 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #058aff 5%, #2ef52e 100%);
+	background-color:#058aff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer-link{
+  margin: 10px;
+  text-decoration: none;
+  color: #a2d5f2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+}
+.last-p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+.hea {
+  font-size: 2.15rem;
+  color: #00bbf0;
+  font-family: serif;
+  font-weight: bold;
 }
